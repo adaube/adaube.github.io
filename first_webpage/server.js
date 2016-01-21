@@ -3,7 +3,7 @@ var express = require('express'),
 
 server.use(express.static(__dirname+"/html"));
 
-server.get('/beginning',function(req, res);{
+server.get('/beginning',function(req, res){
     res.sendFile("beginning.html");
 });
 
