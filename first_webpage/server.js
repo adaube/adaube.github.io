@@ -4,7 +4,7 @@ var express = require('express'),
 server.use(express.static(__dirname+"/html"));
 
 server.get('/beginning',function(req, res){
-    res.sendFile(__dirname+"/beginning.html");
+    res.sendFile("beginning.html");
 });
 
 server.listen(8080,function(){
