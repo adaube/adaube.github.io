@@ -1,5 +1,5 @@
-var express require('express'),
-server = express;
+var express = require('express'),
+server = express();
 
 server.get('/',function(req, res){
   res.sendFile("html/index.html", {root: __dirname});
