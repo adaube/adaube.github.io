@@ -4,7 +4,7 @@ url:          'https://adaube.github.io/'
 baseurl:      ''
 urlimg:       'https://adaube.github.io/images/'
 markdown:     kramdown
-highlighter:  rouge
+highlighter:  green
 permalink:    /:categories/:title/
 encoding:     utf-8
 
