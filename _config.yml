@@ -1,2 +1,96 @@
-name: Adam Daube, Aspiring Software Developer
-markdown: kramdown
+title:        'Adam Daube'
+description:  'Adam Daube Portfolio Website'
+url:          'https://adaube.github.io/'
+baseurl:      ''
+urlimg:       'https://adaube.github.io/images/'
+markdown:     kramdown
+highlighter:  rouge
+permalink:    /:categories/:title/
+encoding:     utf-8
+
+language: "en"
+
+gems:
+    - jekyll-gist
+    - jekyll-sitemap
+    - jekyll-paginate
+
+exclude:
+    - .sass-cache
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - INSTALL.md
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [development]
+
+defaults:
+  -
+    scope:
+      path: ''        # an empty string here means all files in the project
+      type: 'pages'
+    values:
+      layout: page      # Set default layout to page
+      show_meta: false  # Hide metadata for all pages
+      comments: false
+      author: 'Adam Daube'     # Default author for pages
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: page      # Set default layout to page
+      show_meta: true   # Show metadata for all posts
+      comments: false
+      author: 'Adam Daube'     # Default author for posts
+
+favicon-32x32:                          'favicon-32x32.png'
+touch-icon-192x192:                     'touch-icon-192x192.png'
+apple-touch-icon-180x180-precomposed:   'apple-touch-icon-180x180-precomposed.png'
+apple-touch-icon-152x152-precomposed:   'apple-touch-icon-152x152-precomposed.png'
+apple-touch-icon-144x144-precomposed:   'apple-touch-icon-144x144-precomposed.png'
+apple-touch-icon-120x120-precomposed:   'apple-touch-icon-120x120-precomposed.png'
+apple-touch-icon-114x114-precomposed:   'apple-touch-icon-114x114-precomposed.png'
+apple-touch-icon-76x76-precomposed:     'apple-touch-icon-76x76-precomposed.png'
+apple-touch-icon-72x72-precomposed:     'apple-touch-icon-72x72-precomposed.png'
+apple-touch-icon-precomposed:           'apple-touch-icon-precomposed.png'
+msapplication_tileimage:                'msapplication_tileimage.png'               # Size 144x144
+msapplication_tilecolor:                '#fabb00'
+
+sass:
+    sass_dir: _sass
+    style: :compressed
+
+socialmedia:
+    # youtube: 
+    github: adaube
+    twitter: adamjdaube
+    # facebook:
+    # soundcloud:
+    # tumblr:
+    # instagram:
+    # rss:
+    linkedin: adamdaube
+
+language:
+    html_language:            'en'      # The language setting is used in /includes/header.html for html-settings
+    read_more:                'Read more ›'
+    show_all_articles:        'Show All Articles ›'
+    visit_frontpage:          'Visit the frontpage'
+    comments_headline:        'Comments'
+    enable_disqus:            'Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>'
+    search:                   'Search'
+    search_input_placeholder: 'Search [Hit Tab and start writing]'
+    written_by:               'Written by'
+    more_articles:            'More Articles'
+    follow_me_on:                'Follow me at'
+    navigation_search:        'Press Accesskey [4] for Search'
+    navigation_menu:          'Press Accesskey [6] for Navigation Menu'
+    navigation_home:          'Press Accesskey [1] for Homepage'
+    subscribe_to_my_rss_feed: 'Subscribe to my RSS Feed'
