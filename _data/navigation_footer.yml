@@ -1,0 +1,11 @@
+- name: 'About'
+  url: '/info/'
+
+- name: 'Navigation'
+  url: '/navigation/'
+
+- name: 'Theme by Adam Daube'
+  url: 'http://adaube.github.io/'
+
+- name: 'LinkedIn'
+  url: 'https://www.linkedin.com/in/adamdaube'

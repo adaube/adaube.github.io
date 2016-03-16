@@ -1,0 +1,14 @@
+- name: "Getting Started"
+  url: "/getting-started/"
+
+- name: "What's special about this?"
+  url: "/about-simplicity/"
+
+- name: "All Articles"
+  url: "/archive/"
+
+- name: "Why I created this"
+  url: "/info/"
+
+- name: "Style Guide"
+  url: "/style-guide/"
